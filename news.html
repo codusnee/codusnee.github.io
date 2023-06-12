@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Polchingroom - Fragrance project</title>
+        <!-- Favicon-->
+        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+        <!-- Custom Google font-->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@100;200;300;400;500;600;700;800;900&amp;display=swap" rel="stylesheet" />
+        <!-- Bootstrap icons-->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css" rel="stylesheet" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/styles.css" rel="stylesheet" />
+        <style>
+            /* Added styles */
+            .card-body {
+                display: flex;
+                align-items: center;
+            }
+
+            .card-body .col {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+
+            .card-body img {
+                max-width: 500px;
+                max-height: 500px;
+                object-fit: contain;
+            }
+            /* 커서를 올렸을 때 */
+            a.nav-link:hover {
+            color: red;
+            }
+
+            /* 누르고 있을 때 */
+            a.nav-link:active {
+            color: red;
+            }
+        </style>
+    </head>
+    <body class="d-flex flex-column h-100 bg-light">
+        <main class="flex-shrink-0">
+            <!-- Navigation-->
+            <nav class="navbar navbar-expand-lg navbar-light bg-white py-3">
+                <div class="container px-5">
+                    <a class="navbar-brand" href="index.html"><span class="fw-bolder text-primary">Polchingroom</span></a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav ms-auto mb-2 mb-lg-0 small fw-bolder">
+                            <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                            <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="fragranceDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Fragrance</a>
+                                <ul class="dropdown-menu" aria-labelledby="fragranceDropdown">
+                                    <li><a class="dropdown-item" href="guide.html">Guide</a></li>
+                                    <li><a class="dropdown-item" href="olfactory.html">Olfactory</a></li>
+                                    <li><a class="dropdown-item" href="recommendation.html">Recommendation</a></li>
+                                    <li><a class="dropdown-item" href="newarrivals.html">New Arrivals</a></li>
+                                    <li><a class="dropdown-item" href="relatives.html">Relatives</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item"><a class="nav-link" href="rank.html">Rank</a></li>
+                            <li class="nav-item"><a class="nav-link" href="store.html">Store</a></li>
+                            <li class="nav-item"><a class="nav-link" href="news.html">News</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>            
+            <!-- Page Content-->
+            <div class="container px-5 my-5">
+                <div class="text-center mb-5">
+                    <h1 class="display-5 fw-bolder mb-0"><span class="text-gray d-inline">News</span></h1>
+                </div>
+                <div class="row gx-5 justify-content-center">
+                    <div class="col-lg-11 col-xl-9 col-xxl-8">
+                        <!-- 6월의 이슈 -->
+                        <section>
+                            <div class="d-flex align-items-center justify-content-between mb-4">
+                                <h2 class="text-dark fw-bolder mb-0">6월의 이슈</h2>
+                            </div>
+                            <!-- Image Slider -->
+                            <div id="imageSlider" class="carousel slide" data-bs-ride="carousel">
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                        <img src="assets/news/lilyrosefirstbanner.jpg" class="d-block w-100" alt="another">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="assets/news/lilyrosesecondbanner.jpg" class="d-block w-100" alt="blackberry&bay">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="assets/news/timosifirstbanner.webp" class="d-block w-100" alt="blanche">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="assets/news/timosisecondbanner.jpg" class="d-block w-100" alt="englishpear&feesia">
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- 티모시 살라메 샤넬퍼퓸 앰버서더 뉴스-->
+                            <div class="card shadow border-0 rounded-4 mb-5">
+                                <div class="card-body p-5">
+                                    <div class="row align-items-center gx-5">
+                                        <div class="col text-center text-lg-start mb-4 mb-lg-0">
+                                            <div class="bg-light p-4 rounded-4">
+                                                <img class="timosifirstbanner-img" src="assets/news/timosifirstbanner.webp" alt="timosifirstbanner" />
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-12">
+                                        </div>
+                                        <div class="fst-italic">
+                                            <div class="small text-muted">티모시 샬라메(Timothee Chalamet), <br>블루 드 샤넬의 새로운 앰버서더로 선정.<br></div>
+                                            <h1 class="small text-muted"><br>New Ambassador<br></h1>
+                                            <p class="text-center"> 남성적인 자유로움을 상징하는 향<br>
+                                            전 제품은 샤넬 공식 홈페이지에서 구매 가능. </p>
+                                            <a class="nav-link" href="https://www.instagram.com/p/Cs8rVyuNa0i/">관련 인스타 링크</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- 릴리 로즈 샤넬퍼퓸 앰버서더 뉴스-->
+                            <div class="card shadow border-0 rounded-4 mb-5">
+                                <div class="card-body p-5">
+                                    <div class="row align-items-center gx-5">
+                                        <div class="col text-center text-lg-start mb-4 mb-lg-0">
+                                            <div class="bg-light p-4 rounded-4">
+                                                <img class="lilyrosefirstbanner-img" src="assets/news/lilyrosefirstbanner.jpg" alt="lilyrosefirstbanner" />
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-12">
+                                        </div>
+                                        <div class="fst-italic">
+                                            <div class="small text-muted">릴리 로즈 (Lily Rose), <br>샤넬 NO.5의 새로운 모델로 선정.<br></div>
+                                            <h1 class="small text-muted"><br>New Model<br></h1>
+                                            <p class="text-center"> 샤넬의 고풍스러운 향<br>
+                                            모든 관련 정보는 샤넬 공식 홈페이지에서 확인 가능. </p>
+                                            <a class="nav-link" href="https://www.instagram.com/p/BFvup1MhaBI/">관련 인스타 링크</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- 논픽션 팝업 스토어 뉴스-->
+                            <div class="card shadow border-0 rounded-4 mb-5">
+                                <div class="card-body p-5">
+                                    <div class="row align-items-center gx-5">
+                                        <div class="col text-center text-lg-start mb-4 mb-lg-0">
+                                            <div class="bg-light p-4 rounded-4">
+                                                <img class="nonfictionpopup-img" src="assets/news/nonfictionpopup.png" alt="nonfictionpopup" />
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-12">
+                                            <h1>Nonfiction pop-up store</h1>
+                                            <p class="fst-italic">시트러스 컬렉션의 주제를 갖고 열린 논픽션 팝업스토어<br>
+                                            논픽션 시트러스 컬렉션은 6월 9일부터 논픽션 공식 온라인 스토어 및 한남, 삼청, 부산 시그니처 스토어, 현대백화점 판교 스토어에서 만나볼 수 있다.</p>
+                                            <a class="nav-link" href="https://nonfiction.com/event.html">예약은 click</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- 겐조 옴므 뉴스-->
+                            <div class="card shadow border-0 rounded-4 mb-5">
+                                <div class="card-body p-5">
+                                    <div class="row align-items-center gx-5">
+                                        <div class="col text-center text-lg-start mb-4 mb-lg-0">
+                                            <div class="bg-light p-4 rounded-4">
+                                                <img class="kenzohommefirst-img" src="assets/news/kenzohommefirst.webp" alt="kenzohommefirst" />
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-12">
+                                            <h1>KENZO 옴므 오 마린 오 드 뚜왈렛 </h1>
+                                            <p class="fst-italic">2023년 6월 1일 런칭된 겐조의 신상, 자연스럽고 우아한 센슈얼 우디 마린 향의 클래식한 남성 향수 <br>
+                                                시트러스향의 신선함과 우디노트의 센슈얼함이 어우러진 향. <br>
+                                                바람에 휘어진 듯한 푸른 대나무의 상징하는 독특한 용기 디자인이 특징.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                        <!-- 이전 뉴스 Section-->
+                        <section>
+                            <h2 class="text-secondary fw-bolder mb-4">지난 이슈</h2>
+                            <!-- 딥디크 로파피에 뉴스 -->
+                            <div class="card shadow border-0 rounded-4 mb-5">
+                                <div class="card-body p-5">
+                                    <div class="row align-items-center gx-5">
+                                        <div class="col text-center text-lg-start mb-4 mb-lg-0">
+                                            <div class="bg-light p-4 rounded-4">
+                                                <img class="leaupapier-img" src="assets/news/leaupapier.jpg" alt="leaupapier" />
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-12">
+                                            <h1>Diptyque L'EAU PAPIER 오 드 뚜왈렛 </h1>
+                                            <p class="fst-italic"> 화이트 머스크, 미모사, 블론드 우드 어코드<br>
+                                                지난 3월 16일에 런칭한 제품, 오 드 뚜왈렛으로만 출시. <br>
+                                                50ml 165,000 won/ 100ml 233,000 won</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- 미스 디올 팝업 스토어 뉴스 -->
+                            <div class="card shadow border-0 rounded-4 mb-5">
+                                <div class="card-body p-5">
+                                    <div class="row align-items-center gx-5">
+                                        <div class="col text-center text-lg-start mb-4 mb-lg-0">
+                                            <div class="bg-light p-4 rounded-4">
+                                                <img class="missdiorpopup-img" src="assets/news/missdiorpopup.jpeg" alt="missdiorpopup" />
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-12">
+                                            <h1>MISS Dior pop-up store</h1>
+                                            <p class="fst-italic"> 2023년 5월 5일-6월 4일<br>
+                                                성동구 플라츠2 서울특별시 성동구 뚝섬로 17길 35 <br>
+                                                p.s 미스 디올은 반딧불이 빛으로 반짝이던 저녁하늘과 자스민 꽃의 향기가 소프라노의 노랫소리처럼 펼쳐지던 프로방스에서 태어났습니다.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+        </main>
+    <!-- Bootstrap core JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Core theme JS -->
+    <script src="js/scripts.js"></script>
+    <script>
+        // 이미지 슬라이드를 자동으로 변경하도록 설정
+        setInterval(function() {
+            $('#imageSlider').carousel('next');
+        }, 50); // 3초마다 다음 슬라이드로 이동
+    </script>
+</body>
+</html>
